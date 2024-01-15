@@ -1,0 +1,40 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,body,#root{
+  width: 100vw;
+  height: 100vh;
+  background-color: darkgrey;
+}
+.container{
+  padding: 10px 15px;
+  box-shadow: 10px 10px 20px grey;
+}
+.heading{
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 5px 5px 10px grey;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  margin-block: 1rem;
+}
+.range{
+  flex-wrap: wrap;
+  font-weight: bold;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.input{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
